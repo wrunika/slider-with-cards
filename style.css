@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  background: #F5DEB3;
+  height: 100vh;
+  
+}
+
+.british {
+  background-image: url('https://media.istockphoto.com/photos/british-shorthair-cat-lying-on-white-table-copyspace-picture-id918529626?b=1&k=20&m=918529626&s=170667a&w=0&h=elwAmYZtipSgFWHGBnK6g3oK7fXm_YWtfCg40Nx6B60=');
+}
+
+.scottish {
+  background-image: url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2NvdHRpc2glMjBjYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+}
+
+.maine_coon {
+  background-image: url('https://media.istockphoto.com/photos/maine-coon-cat-on-white-background-picture-id1031592516?b=1&k=20&m=1031592516&s=170667a&w=0&h=HhGJCobejW1AJVXKkwXMkRyPvsbZ_a2xjtX6B6mdAVk=');
+}
+
+.bengal {
+  background-image: url('https://media.istockphoto.com/photos/beautiful-bengal-cat-sitting-on-a-bed-and-turning-round-picture-id1222793677?b=1&k=20&m=1222793677&s=170667a&w=0&h=kJ8x0_8ERPekjbCNNtuTilXUV5U2tpuNW8Vh3iSC0_8=');
+}
+
+.abyssinian {
+  background-image: url('https://media.istockphoto.com/photos/young-abessinier-cat-in-action-picture-id151547558?b=1&k=20&m=151547558&s=170667a&w=0&h=6Rz_598LAx3WndEODhKYPTdc60A6gHSOyaDOuF4VoSI=');
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.slide {
+  position: relative;
+  color: #800000;
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
