@@ -64,3 +64,11 @@ body {
   margin: 0;
   opacity: 0;
 }
+
+.slide.active {
+  flex: 10;
+}
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
